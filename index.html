@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>慕课网</title>
+	<link type="text/css" rel="stylesheet" href="style/main.css" />
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<a href="#"><img src="images/logo.png" alt="logo" /></a>
+		</div>
+		<ul id="nav_left">
+			<li><a href="#">实战</a></li>
+			<li><a href="#">路径</a></li>
+			<li><a href="#">猿问</a></li>
+			<li><a href="#">手记</a></li>
+		</ul>
+		<div>
+			<ul id="nav_right">
+				<li id="sign">
+					<a href="#">
+						<img src="images/icon/sign_in.jpg" alt="sign_in">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/icon/mesage.jpg" alt="mesage">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/icon/remind.jpg" alt="remind">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/icon/phone.jpg" alt="APP下载">
+					</a>
+				</li>
+			</ul>
+			<div id="search">
+				<input type="text" placeholder="请输入你想搜索的内容..." />
+				<i id="icon_search"></i>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div id="bk"></div>
+		<div id="list">
+			<div id="imgList" class="imgBox" style="left: -1200px;">
+				<a href="#">
+					<img src="images/ad3.jpg">
+				</a>
+				<a href="#">
+					<img src="images/ad1.jpg">
+				</a>
+				<a href="#">
+					<img src="images/ad2.jpg">
+				</a>
+				<a href="#">
+					<img src="images/ad3.jpg">
+				</a>
+				<a href="#">
+					<img src="images/ad1.jpg">
+				</a>
+			</div>
+			<div id="buttons">
+				<span index="1" class="on"></span>
+				<span index="2"></span>
+				<span index="3"></span>
+			</div>
+			<a href="javascript:;" id="prev" class="arrow">&lt;</a>
+			<a href="javascript:;" id="next" class="arrow">&gt;</a>
+			<ul id="main_nav">
+				<div class="shadeDiv"></div>
+				<li button="1">
+					<a href="#">
+						<span>前端开发</span>
+						<i>&gt;</i>
+					</a>
+				</li>
+				<li  button="2">
+					<a href="#">
+						<span>后端开发</span>
+						<i>&gt;</i>
+					</a>
+				</li>
+				<li button="3">
+					<a href="#">
+						<span>移动开发</span>
+						<i>&gt;</i>
+					</a>
+				</li>
+				<li button="4">
+					<a href="#">
+						<span>数据库</span>
+						<i>&gt;</i>
+					</a>
+				</li>
+				<li  button="5">
+					<a href="#">
+						<span>云计算&amp;大数据</span>
+						<i>&gt;</i>
+					</a>
+				</li>
+				<li  button="6">
+					<a href="#">
+						<span>运维&amp;测试</span>
+						<i>&gt;</i>
+					</a>
+				</li>
+				<li  button="7">
+					<a href="#" id="last">
+						<span>视觉设计</span>
+						<i>&gt;</i>
+					</a>
+				</li>
+			</ul>
+			<div id="submenu">
+				<div id="fe" code="1">
+					<h3>分类目录</h3>
+					<span>基础：</span>
+					<a href="#">HTML/CSS</a>
+					<span class="ml10">/</span>
+					<a href="#">Javascript</a>
+					<span class="ml10">/</span>
+					<a href="#">jQuery</a>
+					<span class="ml10">/</span>
+					<br />
+					<span>进阶：</span>
+					<a href="#">Html5</a>
+					<span class="ml10">/</span>
+					<a href="#">CSS3</a>
+					<span class="ml10">/</span>
+					<a href="#">Node.js</a>
+					<span class="ml10">/</span>
+					<a href="#">AngularJS</a>
+					<span class="ml10">/</span>
+					<a href="#">Bootstrap</a>
+					<span class="ml10">/</span>
+					<a href="#">React</a>
+					<span class="ml10">/</span>
+					<a href="#">Sass/Less</a>
+					<span class="ml10">/</span>
+					<a href="#">Vue.js</a>
+					<span class="ml10">/</span>
+					<a href="#">WebApp</a>
+					<br />
+					<span>其他：</span>
+					<a href="#">前端工具</a>
+					<br />
+					<h3>推荐</h3>
+					<a href="#">课程&nbsp;|&nbsp;侧边栏信息展示效果</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;原生JS实现帧动画库</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;企业网站综合布局实战</a>
+				</div>
+				<div id="be" code="2">
+					<h3>分类目录</h3>
+					<a href="#">PHP</a>
+					<span class="ml10">/</span>
+					<a href="#">Java</a>
+					<span class="ml10">/</span>
+					<a href="#">Python</a>
+					<span class="ml10">/</span>
+					<a href="#">C</a>
+					<span class="ml10">/</span>
+					<a href="#">C++</a>
+					<span class="ml10">/</span>
+					<a href="#">Go</a>
+					<span class="ml10">/</span>
+					<a href="#">C#</a>
+					<br />
+					<h3>推荐</h3>
+					<a href="#">课程&nbsp;|&nbsp;揭秘PHP模糊查询技术</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;Java入门第一季</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;C++远征之离港篇</a>
+				</div>
+				<div id="mobile" code="3">
+					<h3>分类目录</h3>
+					<a href="#">Andriod</a>
+					<span class="ml10">/</span>
+					<a href="#">iOS</a>
+					<span class="ml10">/</span>
+					<a href="#">Unity 3D</a>
+					<span class="ml10">/</span>
+					<a href="#">Cocos2d-x</a>
+					<br />
+					<h3>推荐</h3>
+					<a href="#">课程&nbsp;|&nbsp;多种多样的App主界面Tab实现方法</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;iOS基础之门之Foundation框架初体验</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;Andriod-Service系列之多线程断点续传下载</a>
+				</div>
+				<div id="data" code="4">
+					<h3>分类目录</h3>
+					<a href="#">MySQL</a>
+					<span class="ml10">/</span>
+					<a href="#">MongoDB</a>
+					<span class="ml10">/</span>
+					<a href="#">Oracle</a>
+					<span class="ml10">/</span>
+					<a href="#">SQL Server</a>
+					<br />
+					<h3>推荐</h3>
+					<a href="#">课程&nbsp;|&nbsp;MongoDB集群之分片技术应用</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;MongoDB 2014北京大会</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;2015 Oracle技术嘉年华</a>
+				</div>
+				<div id="yjs" code="5">
+					<h3>分类目录</h3>
+					<a href="#">大数据</a>
+					<span class="ml10">/</span>
+					<a href="#">云计算</a>
+					<br />
+					<h3>推荐</h3>
+					<a href="#">课程&nbsp;|&nbsp;电商大数据应用之用户画像</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;R语言之门</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;云计算-引领阿里生态的技术发展之路</a>
+				</div>
+				<div id="yw" code="6">
+					<h3>分类目录</h3>
+					<a href="#">测试</a>
+					<span class="ml10">/</span>
+					<a href="#">Linux</a>
+					<br />
+					<h3>推荐</h3>
+					<a href="#">课程&nbsp;|&nbsp;Linux达人养成计划Ⅱ</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;Shell典型应用之nginx和mysql应用状态分析</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;Linux达人养成计划Ⅱ</a>
+				</div>
+				<div id="photo" code="7">
+					<h3>分类目录</h3>
+					<a href="#">Photoshop</a>
+					<span class="ml10">/</span>
+					<a href="#">Maya</a>
+					<span class="ml10">/</span>
+					<a href="#">Premiere</a>
+					<span class="ml10">/</span>
+					<a href="#">ZBrush</a>
+					<br />
+					<h3>推荐</h3>
+					<a href="#">课程&nbsp;|&nbsp;Premiere魔术————图片变电影</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;PS入门基础-魔幻调色</a>
+					<br />
+					<a href="#">课程&nbsp;|&nbsp;“Doge”变身术</a>
+				</div>
+			</div>
+		</div>
+		<div class="public">
+			<div class="public-title">实战推荐</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo1.jpg" alt="">
+					<div class="public-animate">
+						<h3>贯穿全栈式React Native开发App</h3>
+						<p>18小时纯干货讲解前沿技术React Native，以全栈角度学习前端到后端，学会它，1个人也能开发出一款产品</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥368.00</span>
+						<span class="r">71人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo2.jpg" alt="">
+					<div class="public-animate">
+						<h3>前端到后台ThinkPHP开发整站</h3>
+						<p>用PHP+MySQL+Ajax，页面静态化、数据库备份技术实现你“小全栈”梦想</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥128.00</span>
+						<span class="r">1330人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo3.jpg" alt="">
+					<div class="public-animate">
+						<h3>7天搞定Node.js微信公众号开发</h3>
+						<p>用Koa框架、ES2015新特性及MongoDB数据库，开发微信公众号</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥199.00</span>
+						<span class="r">831人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo4.jpg" alt="">
+					<div class="public-animate">
+						<h3>Python进阶强化训练</h3>
+						<p>实际编程和面试都会遇到的典型问题，更“平顺”的向中高级过渡</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥168.00</span>
+						<span class="r">117人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style mr0">
+				<a href="#">
+					<img src="images/demo5.jpg" alt="">
+					<div class="public-animate">
+						<h3>HTML5 移动Web App阅读器</h3>
+						<p>用HTML5、ES6、Ajax异步、Touch事件等技术，开发商业Web APP</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥68.00</span>
+						<span class="r">1551人在学</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="public">
+			<div class="public-title">免费好课</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo6.jpg" alt="">
+					<div class="public-animate">
+						<h3><i>初</i>性能测试LoadRunner框架基础</h3>
+						<p>带领大家进入性能测试领域</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥368.00</span>
+						<span class="r">71人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo7.jpg" alt="">
+					<div class="public-animate">
+						<h3><i>中</i>轻松学会Laravel-基础篇</h3>
+						<p>Laravel框架是世界上最流行的PHP框架</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥368.00</span>
+						<span class="r">71人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo8.jpg" alt="">
+					<div class="public-animate">
+						<h3><i>初</i>JSON快速入门（Java版）</h3>
+						<p>JSON和GSON的应用！</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥368.00</span>
+						<span class="r">71人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style">
+				<a href="#">
+					<img src="images/demo9.jpg" alt="">
+					<div class="public-animate">
+						<h3><i>中</i>移动端Web组件-Dialog对话框</h3>
+						<p>教你学习移动端web组件开发</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥368.00</span>
+						<span class="r">71人在学</span>
+					</div>
+				</a>
+			</div>
+			<div class="public-style mr0">
+				<a href="#">
+					<img src="images/demo10.jpg" alt="">
+					<div class="public-animate">
+						<h3><i>高</i>Linux智能DNS服务搭建之Bind服务</h3>
+						<p>Bind服务的安装与配置！</p>
+					</div>
+					<div class="public-style-bottom">
+						<span class="l">￥368.00</span>
+						<span class="r">71人在学</span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="footer-top" id="foot">
+				<a href="#" class="footer-weibo" title="新浪微博"></a>
+				<a href="#" class="footer-weixin" title="微信"></a>
+				<a href="#" class="footer-qqweibo" title="腾讯微博"></a>
+				<a href="#" class="footer-qzone" title="QQ空间"></a>
+			</div>
+			<div class="footer-link">
+				<a href="#" title="关于我们">关于我们</a>
+				<a href="#" title="企业合作">企业合作</a>
+				<a href="#" title="人才招聘">人才招聘</a>
+				<a href="#" title="讲师招募">讲师招募</a>
+				<a href="#" title="联系我们">联系我们</a>
+				<a href="#" title="意见反馈">意见反馈</a>
+				<a href="#" title="友情链接">友情链接</a>
+			</div>
+			<div class="footer-bottom">
+				<p>©&nbsp;2016&nbsp;</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
